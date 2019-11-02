@@ -1,0 +1,99 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.home{
+	margin: 0 auto;
+	width: 1100px;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.header{
+	background-image: url("header_bg.png");
+	background-repeat: repeat-x;
+
+	height: 112px;
+	grid-column: 1/5;
+}
+
+.banner{
+	background-image: url("banner_bg.png");
+	background-repeat: repeat-x;
+
+	height: 415px;
+	grid-column: 1/5;
+}
+
+.logo{
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.bannerImage{
+	margin-top: 21px;
+	margin-left: 50px;
+}
+
+.navbar{
+	list-style-type: none;
+	margin-left: 430px;
+	margin-top: -80px;
+}
+
+.navbar>li>a{
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	color: grey;
+	font-size: 20px;
+}
+
+.banner-tekst{
+	color: white;
+	margin-top: 0px;
+	margin-left: 770px;
+	margin-right: 50px;
+}
+
+.banner-title{
+	margin-top: -320px;
+	margin-left: 770px;
+	color: white;
+}
+
+footer{
+	background-image: url("footer_bg.png");
+	background-repeat: repeat-x;
+	padding: 2%;
+
+	text-align: center;
+	font-size: 100%;
+	color: white;
+}
+
+.bonusslider{
+	grid-row: 3;
+	grid-column: 3;
+}
+
+.nivoslider{
+	grid-row: 3;
+	grid-column: 2;
+}
+
+.fadeslider{
+	grid-row: 3;
+	grid-column: 1;
+}
+
+.text{
+	margin-left: 50px;
+}
+
+.onderwerptitle{
+	margin-left: 50px;
+}
